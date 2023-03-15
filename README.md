@@ -18,64 +18,72 @@ Use imshow(window_name, image) to display the image.
 Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
-## Program:
-### Developed By:
-### Register Number: 
+## Program:h
+### Developed By : Shyam Kumar A
+### Register Number: 212221230098
 i) #To Read,display the image
 ```
-  
+import cv2
+pic=cv2.imread("bird.jpg",1)
+cv2.imshow("212221230098",pic)
+cv2.waitKey(0)
+cv2.destroyAllWindows() 
 
 ```
 ii) #To write the image
 ```
-
-
-
+import cv2
+pic=cv2.imread("bird.jpg",1)
+cv2.imshow("212221230098",pic)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 iii) #Find the shape of the Image
-```python3
-
-
-
+```
+import cv2
+pic = cv2.imread('bird.jpg',1)
+print(pic.shape)
 ```
 iv) #To access rows and columns
 
-```python3
-
-
-
+```
+import cv2
+import random
+pic=cv2.imread("bird.jpg",1)
+for i in range(100):
+    for j in range(pic.shape[1]):
+        pic[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212221230098",pic)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 v) #To cut and paste portion of image
-```python3
-
-
-
+```
+import cv2
+pic=cv2.imread("bird.jpg",1)
+crop=pic[300:400,300:400]
+pic[50:150,50:150]=crop
+cv2.imshow("212221230098",pic)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 
 ## Output:
 
 ### i) Read and display the image
-
-<br>
-<br>
+![OPT](scr1.png)
 
 ### ii)Write the image
-
-<br>
-<br>
+![OPT](scr2.png)>
 
 ### iii)Shape of the Image
-
-<br>
-<br>
+![OPT](scr3.png)>
 
 ### iv)Access rows and columns
-<br>
-<br>
+![OPT](scr4.png)
 
 ### v)Cut and paste portion of image
-<br>
-<br>
+![OPT](scr5.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
