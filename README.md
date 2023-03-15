@@ -21,7 +21,7 @@ End the program and close the output image windows.
 ## Program:h
 ### Developed By : Shyam Kumar A
 ### Register Number: 212221230098
-i) #To Read,display the image
+i) To Read,display the image
 ```
 import cv2
 pic=cv2.imread("bird.jpg",1)
@@ -30,7 +30,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows() 
 
 ```
-ii) #To write the image
+ii) To write the image
 ```
 import cv2
 pic=cv2.imread("bird.jpg",1)
@@ -38,13 +38,13 @@ cv2.imshow("212221230098",pic)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-iii) #Find the shape of the Image
+iii) Find the shape of the Image
 ```
 import cv2
 pic = cv2.imread('bird.jpg',1)
 print(pic.shape)
 ```
-iv) #To access rows and columns
+iv) To access rows and columns
 
 ```
 import cv2
@@ -57,7 +57,7 @@ cv2.imshow("212221230098",pic)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-v) #To cut and paste portion of image
+v) To cut and paste portion of image
 ```
 import cv2
 pic=cv2.imread("bird.jpg",1)
@@ -71,19 +71,19 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### i) Read and display the image
-![OPT](scr1.png)
+![OPT](SCR1.png)
 
 ### ii)Write the image
-![OPT](scr2.png)
+![OPT](SCR2.png)
 
 ### iii)Shape of the Image
-![OPT](scr3.png)
+![OPT](SCR3.png)
 
 ### iv)Access rows and columns
-![OPT](scr4.png)
+![OPT](SCR4.png)
 
 ### v)Cut and paste portion of image
-![OPT](scr5.png)
+![OPT](SCR5.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
