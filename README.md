@@ -74,10 +74,10 @@ cv2.destroyAllWindows()
 ![OPT](scr1.png)
 
 ### ii)Write the image
-![OPT](scr2.png)>
+![OPT](scr2.png)
 
 ### iii)Shape of the Image
-![OPT](scr3.png)>
+![OPT](scr3.png)
 
 ### iv)Access rows and columns
 ![OPT](scr4.png)
